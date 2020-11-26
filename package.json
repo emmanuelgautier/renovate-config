@@ -1,0 +1,43 @@
+{
+  "name": "@emmanuelgautier/renovate-config",
+  "version": "1.0.0",
+  "description": "Shareable config for Renovate",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        "schedule:weekends",
+        ":automergeMinor",
+        ":automergePr",
+        ":semanticCommits",
+        ":autodetectPinVersions",
+        ":rebaseStalePrs",
+        ":prConcurrentLimit10",
+        ":prHourlyLimit2",
+        ":timezone(Europe/Paris)",
+        ":updateNotScheduled"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "renovate-config-validator",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuelgautier/renovate-config.git"
+  },
+  "keywords": [
+    "renovate"
+  ],
+  "author": "Emmanuel Gautier <git@emmanuelgautier.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmanuelgautier/renovate-config/issues"
+  },
+  "homepage": "https://github.com/emmanuelgautier/renovate-config#readme",
+  "devDependencies": {
+    "renovate": "^23.88.3",
+    "standard-version": "^9.0.0"
+  }
+}
