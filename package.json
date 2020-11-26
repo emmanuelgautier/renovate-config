@@ -27,6 +27,9 @@
     "type": "git",
     "url": "git+https://github.com/emmanuelgautier/renovate-config.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "renovate"
   ],
