@@ -442,10 +442,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-sdk@2.792.0:
-  version "2.792.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.792.0.tgz#d124a6074244a4675e0416887734e8f6934bdd30"
-  integrity sha512-h7oSlrCDtZkW5qNw/idKmMjjNJaaPlXFY+NbqtaTjejpCyVuIonUmFvm8GW16V58Avj/hujJfhpX9q0BMCg+VQ==
+aws-sdk@2.827.0:
+  version "2.827.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.827.0.tgz#372e37cabf0e8351de6d8f07a8f519bfaaeeae2a"
+  integrity sha512-71PWS1dqJ65/SeNgDQWEgbJ6oKCuB+Ypq30TM3EyzbAHaxl69WjQRK71oJ2bjhdIHfGQJtOV0G9wg4zpge4Erg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -467,10 +467,10 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-azure-devops-node-api@10.2.0:
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-10.2.0.tgz#3faea4ac40bb62e554ec5174a8cc6d19cc36ae73"
-  integrity sha512-5yXGb0kBszCiLw1qZNtS/y3EqGI/nVtkndX5n9qsdU26pJjFwyg9pAOjixni34R+IX4u243p34oXQwXaKbyD8g==
+azure-devops-node-api@10.2.1:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/azure-devops-node-api/-/azure-devops-node-api-10.2.1.tgz#835080164f8c30cec6506c47198b044c053f1f36"
+  integrity sha512-XuSiUaYpk0tQpd9fD8qfRa5y1IdavupKNVmwxy0w/RhmxG2Wl8uAYnNJchUoWd3Rn9On0mYTCCZSn+UlYdYFSg==
   dependencies:
     tunnel "0.0.6"
     typed-rest-client "^1.8.0"
@@ -569,10 +569,10 @@ builtins@^1.0.3:
   resolved "https://registry.yarnpkg.com/builtins/-/builtins-1.0.3.tgz#cb94faeb61c8696451db36534e1422f94f0aee88"
   integrity sha1-y5T662HIaWRR2zZTThQi+U8K7og=
 
-bunyan@1.8.14:
-  version "1.8.14"
-  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.14.tgz#3d8c1afea7de158a5238c7cb8a66ab6b38dd45b4"
-  integrity sha512-LlahJUxXzZLuw/hetUQJmRgZ1LF6+cr5TPpRj6jf327AsiIq2jhYEH4oqUUkVKTor+9w2BT3oxVwhzE5lw9tcg==
+bunyan@1.8.15:
+  version "1.8.15"
+  resolved "https://registry.yarnpkg.com/bunyan/-/bunyan-1.8.15.tgz#8ce34ca908a17d0776576ca1b2f6cbd916e93b46"
+  integrity sha512-0tECWShh6wUysgucJcBAoYegf3JJoZWibxdqhTm7OHPeT42qdjkZ29QCMcKwbgU1kiH+auSIasNRXMLWXafXig==
   optionalDependencies:
     dtrace-provider "~0.8"
     moment "^2.19.3"
@@ -1736,10 +1736,10 @@ handlebars@4.7.6, handlebars@^4.7.6:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-handy-redis@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.1.0.tgz#783596960d48c3a81db9996f98ae2db78838d961"
-  integrity sha512-XEv5k1/vCkvASfzOTNqW4Ft1+QrMbY274uB9KSpBLw1EtzVefXoO4SgdAlUddMHQd6ftv7KWJgr7kb5TXRMk5w==
+handy-redis@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/handy-redis/-/handy-redis-2.2.1.tgz#33f4293dffba7e0c2b198c4a4ce7cd4a832b5ecc"
+  integrity sha512-Kmz9HhdAA9tGV1b1R6m3AJ8GcC+r/0uzyiTia39Q8tseJJc4kOwGGQr7cfPppD/xlO2ENE5IK+ToRahLuX1JVg==
   dependencies:
     "@types/redis" "^2.8.27"
 
@@ -3441,10 +3441,10 @@ remark@^9.0.0:
     remark-stringify "^5.0.0"
     unified "^6.0.0"
 
-renovate@24.11.3:
-  version "24.11.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.11.3.tgz#6e42e2196b5ec3c7237c1617f79c044625900995"
-  integrity sha512-lJMvY8N19WlSg0KYudCaos962vtDDriupNZ/LD24FYRBexkuCSvFVQMZariwArTGOjE75rJ/XBsZw7evrl0OQQ==
+renovate@24.27.3:
+  version "24.27.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-24.27.3.tgz#d3a89fea52f0f8ef1ce4f4e9aec8fd3ff14b13d3"
+  integrity sha512-+ScHBIxbZH+f9/E1LGuhCa8Ql3V4VLVLDD8MWq7LF1KgLF0y19JyHgGwskH37ww4xb56ApT0Xtv3OdI4+8XnnQ==
   dependencies:
     "@breejs/later" "4.0.2"
     "@iarna/toml" "2.2.5"
@@ -3453,9 +3453,9 @@ renovate@24.11.3:
     "@sindresorhus/is" "4.0.0"
     "@yarnpkg/core" "2.4.0"
     "@yarnpkg/parsers" "2.3.0"
-    aws-sdk "2.792.0"
-    azure-devops-node-api "10.2.0"
-    bunyan "1.8.14"
+    aws-sdk "2.827.0"
+    azure-devops-node-api "10.2.1"
+    bunyan "1.8.15"
     cacache "15.0.5"
     chalk "4.1.0"
     changelog-filename-regex "2.0.1"
@@ -3476,7 +3476,7 @@ renovate@24.11.3:
     global-agent "2.1.12"
     got "11.8.1"
     handlebars "4.7.6"
-    handy-redis "2.1.0"
+    handy-redis "2.2.1"
     hasha "5.2.2"
     ignore "5.1.8"
     ini "1.3.8"
