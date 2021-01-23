@@ -11,12 +11,16 @@
         ":automergePr",
         ":semanticCommits",
         ":autodetectPinVersions",
+        ":separatePatchReleases",
         ":rebaseStalePrs",
         ":prConcurrentLimit10",
-        ":prHourlyLimit2",
+        ":prHourlyLimit1",
         ":timezone(Europe/Paris)",
         ":updateNotScheduled"
-      ]
+      ],
+      "patch": {
+        "enabled": false
+      }
     }
   },
   "scripts": {
