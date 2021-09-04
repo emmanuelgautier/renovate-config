@@ -11,17 +11,13 @@
         ":automergePr",
         ":semanticCommits",
         ":autodetectPinVersions",
-        ":separatePatchReleases",
+        ":combinePatchMinorReleases",
         ":rebaseStalePrs",
         ":prConcurrentLimit10",
         ":prHourlyLimit1",
-        ":timezone(Europe/Paris)",
         ":updateNotScheduled",
         "github>whitesource/merge-confidence:beta"
-      ],
-      "patch": {
-        "enabled": false
-      }
+      ]
     }
   },
   "scripts": {
