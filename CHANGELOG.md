@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.2.2...v1.3.0) (2022-02-20)
+
+
+### Features
+
+* add npm:unpublishSafe rule and allow automerge for all type except major versions ([8392cb6](https://github.com/emmanuelgautier/renovate-config/commit/8392cb61cc4b5082c0258465f6b64391884c7356))
+
 ### [1.2.2](https://github.com/emmanuelgautier/renovate-config/compare/v1.2.1...v1.2.2) (2021-09-05)
 
 ### [1.2.1](https://github.com/emmanuelgautier/renovate-config/compare/v1.2.0...v1.2.1) (2021-09-04)
