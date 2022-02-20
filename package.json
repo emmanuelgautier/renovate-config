@@ -8,7 +8,7 @@
         "config:base",
         "schedule:weekends",
         "group:allNonMajor",
-        ":automergeMinor",
+        "npm:unpublishSafe",
         ":automergePr",
         ":semanticCommits",
         ":autodetectPinVersions",
@@ -18,6 +18,12 @@
         ":prHourlyLimit1",
         ":updateNotScheduled",
         "github>whitesource/merge-confidence:beta"
+      ],
+      "packageRules": [
+        {
+          "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+          "automerge": true
+        }
       ]
     }
   },
