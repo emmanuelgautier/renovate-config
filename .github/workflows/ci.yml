@@ -1,0 +1,52 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts/fermium
+          cache: "yarn"
+          cache-dependency-path: "**/yarn.lock"
+
+      - name: Install dependencies 👨🏻‍💻
+        run: yarn install --frozen-lockfile --silent
+
+      - name: Run tests 🧪
+        run: yarn test
+
+      - name: New version 📝
+        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        run: yarn standard-version
+
+      - name: Publish package 📦
+        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Setup node env for Github 🏗
+        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        uses: actions/setup-node@v3
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+
+      - name: Publish package 📦
+        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
