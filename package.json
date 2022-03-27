@@ -7,7 +7,6 @@
       "extends": [
         "config:base",
         "schedule:weekends",
-        "group:allNonMajor",
         ":automergePr",
         ":semanticCommits",
         ":autodetectPinVersions",
@@ -34,6 +33,10 @@
           ],
           "stabilityDays": 2,
           "automerge": true
+        },
+        {
+          "matchDepTypes": ["devDependencies"],
+          "prPriority": -1
         }
       ]
     }
