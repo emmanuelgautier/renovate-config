@@ -30,23 +30,23 @@ jobs:
         run: yarn test
 
       - name: New version 📝
-        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        if: github.ref == 'refs/heads/main'
         run: yarn standard-version
 
       - name: Publish package 📦
-        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        if: github.ref == 'refs/heads/main'
         run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Setup node env for Github 🏗
-        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        if: github.ref == 'refs/heads/main'
         uses: actions/setup-node@v3
         with:
           registry-url: 'https://npm.pkg.github.com'
 
       - name: Publish package 📦
-        if: github.event_name == "push" && github.ref == "refs/heads/main"
+        if: github.ref == 'refs/heads/main'
         run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
