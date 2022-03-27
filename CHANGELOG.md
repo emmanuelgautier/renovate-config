@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.4.0...v1.5.0) (2022-03-27)
+
+
+### Features
+
+* add back group all non major ([ef01f8f](https://github.com/emmanuelgautier/renovate-config/commit/ef01f8fa5343b99745b6559794dbac05878cd90c))
+
 ## [1.4.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.3.0...v1.4.0) (2022-03-27)
 
 
