@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  NODE_VERSION: lts/fermium
+
 jobs:
   ci:
     runs-on: ubuntu-latest
@@ -19,7 +22,7 @@ jobs:
       - name: Setup node env 🏗
         uses: actions/setup-node@v3
         with:
-          node-version: lts/fermium
+          node-version: ${{ env.NODE_VERSION }}
           cache: "yarn"
           cache-dependency-path: "**/yarn.lock"
 
@@ -28,29 +31,3 @@ jobs:
 
       - name: Run tests 🧪
         run: yarn test
-
-      - name: New version 📝
-        if: github.ref == 'refs/heads/main'
-        run: |
-          git config user.name "{{ github.actor }}"
-          git config user.email "{{ github.actor }}@users.noreply.github.com"
-          yarn standard-version
-          git push --tags
-
-      - name: Publish package 📦
-        if: github.ref == 'refs/heads/main'
-        run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Setup node env for Github 🏗
-        if: github.ref == 'refs/heads/main'
-        uses: actions/setup-node@v3
-        with:
-          registry-url: 'https://npm.pkg.github.com'
-
-      - name: Publish package 📦
-        if: github.ref == 'refs/heads/main'
-        run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

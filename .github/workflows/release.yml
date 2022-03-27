@@ -1,0 +1,55 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  NODE_VERSION: lts/fermium
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: GoogleCloudPlatform/release-please-action@v3
+        id: release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          release-type: node
+
+      - name: Checkout 🛎
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "yarn"
+          cache-dependency-path: "**/yarn.lock"
+
+      - name: Install dependencies 👨🏻‍💻
+        if: ${{ steps.release.outputs.release_created }}
+        run: yarn install --frozen-lockfile --silent
+
+      - name: Publish package 📦
+        if: ${{ steps.release.outputs.release_created }}
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Setup node env for Github 🏗
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/setup-node@v3
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+
+      - name: Publish package 📦
+        if: ${{ steps.release.outputs.release_created }}
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
