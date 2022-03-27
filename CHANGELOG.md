@@ -7,6 +7,14 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
+* add back group all non major ([81ce2f4](https://github.com/emmanuelgautier/renovate-config/commit/81ce2f4b240a08b80a05c56bdb0ac9bfa52a678e))
+* publish automaticaly new package version ([81ce2f4](https://github.com/emmanuelgautier/renovate-config/commit/81ce2f4b240a08b80a05c56bdb0ac9bfa52a678e))
+
+## [1.5.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.4.0...v1.5.0) (2022-03-27)
+
+
+### Features
+
 * add back group all non major ([ef01f8f](https://github.com/emmanuelgautier/renovate-config/commit/ef01f8fa5343b99745b6559794dbac05878cd90c))
 
 ## [1.4.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.3.0...v1.4.0) (2022-03-27)
