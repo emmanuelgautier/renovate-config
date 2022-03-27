@@ -8,7 +8,6 @@
         "config:base",
         "schedule:weekends",
         "group:allNonMajor",
-        "npm:unpublishSafe",
         ":automergePr",
         ":semanticCommits",
         ":autodetectPinVersions",
@@ -27,6 +26,13 @@
             "pin",
             "digest"
           ],
+          "automerge": true
+        },
+        {
+          "matchUpdateTypes": [
+            "major"
+          ],
+          "stabilityDays": 2,
           "automerge": true
         }
       ]
