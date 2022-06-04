@@ -65,7 +65,7 @@
   },
   "homepage": "https://github.com/emmanuelgautier/renovate-config#readme",
   "devDependencies": {
-    "renovate": "32.73.3",
+    "renovate": "32.74.2",
     "standard-version": "9.5.0"
   }
 }
