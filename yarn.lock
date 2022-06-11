@@ -1874,10 +1874,10 @@ bunyan@1.8.15:
     mv "~2"
     safe-json-stringify "~1"
 
-cacache@16.1.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.1.0.tgz#87a6bae558a511c9cb2a13768073e240ca76153a"
-  integrity sha512-Pk4aQkwCW82A4jGKFvcGkQFqZcMspfP9YWq9Pr87/ldDvlWf718zeI6KWCdKt/jeihu6BytHRUicJPB1K2k8EQ==
+cacache@16.1.1:
+  version "16.1.1"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.1.1.tgz#4e79fb91d3efffe0630d5ad32db55cc1b870669c"
+  integrity sha512-VDKN+LHyCQXaaYZ7rA/qtkURU+/yYhviUdvqEv2LT6QPZU8jpyzEkEVAcKlKLt5dJ5BRp11ym8lo3NKLluEPLg==
   dependencies:
     "@npmcli/fs" "^2.1.0"
     "@npmcli/move-file" "^2.0.0"
@@ -4975,10 +4975,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@32.74.3:
-  version "32.74.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.74.3.tgz#08b17fb4ff4e4776aa3209a537eb8cf98b6afa1a"
-  integrity sha512-p2NTC/662v8+8vUfiKaazTLRxqc5/zsyFmMSJOMX5KXPRWON9A272Gl5PYdYsccHP1dBcliF2mlfu9vdPuCybg==
+renovate@32.83.0:
+  version "32.83.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-32.83.0.tgz#ad685be1f2245e6dbbd9abe7c3aa69ee84f27e97"
+  integrity sha512-uTl4NZcJuwU23ZTtBE2gSH/wbzQMfmRWEwPOYPtPZWz02dBfesjNC6dbWiv8nkZEcE5mfu2jV4etCl8zZpirGw==
   dependencies:
     "@aws-sdk/client-ec2" "3.72.0"
     "@aws-sdk/client-ecr" "3.72.0"
@@ -4995,7 +4995,7 @@ renovate@32.74.3:
     auth-header "1.0.0"
     azure-devops-node-api "11.1.1"
     bunyan "1.8.15"
-    cacache "16.1.0"
+    cacache "16.1.1"
     chalk "4.1.2"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
