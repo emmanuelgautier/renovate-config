@@ -1368,10 +1368,10 @@
   dependencies:
     "@seald-io/nedb" "^4.0.2"
 
-"@renovatebot/osv-offline@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.3.0.tgz#d8c8bfc02e6dd084e29f796f829ffde22db7b93f"
-  integrity sha512-iY2o532gK7pbE4ADAwSWexvepSbwDR7y4ZVN0KWpx2YGFElz6SUmO73kSu5jVsQ5h7aDxCPU0uiCCO1H0nbJ0g==
+"@renovatebot/osv-offline@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.3.1.tgz#ca0729f8e6929447ee79588bf41345c94b712a9c"
+  integrity sha512-Sx1Pkyd/hqErBKKf95kT9qYuoMM5qWIis3NYyOD0VRUbMZ3kEW4tN/UbfYqq9XeZ1T79lOsp3cJkF5Bhtbwi1w==
   dependencies:
     "@octokit/rest" "^19.0.13"
     "@renovatebot/osv-offline-db" "1.4.0"
@@ -1379,7 +1379,7 @@
     fs-extra "^11.1.1"
     got "^11.8.6"
     luxon "^3.3.0"
-    node-fetch "^2.6.11"
+    node-fetch "^2.6.12"
 
 "@renovatebot/pep440@2.1.19":
   version "2.1.19"
@@ -2845,11 +2845,6 @@ define-properties@^1.1.3, define-properties@^1.1.4:
   dependencies:
     has-property-descriptors "^1.0.0"
     object-keys "^1.1.1"
-
-delay@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/delay/-/delay-5.0.0.tgz#137045ef1b96e5071060dd5be60bf9334436bd1d"
-  integrity sha512-ReEBKkIfe4ya47wlPYf/gu5ib6yUG0/Aez0JQZQz94kiWtRQvZIQbTiehsnwHvLSWJnQdhVeqYue7Id1dKr0qw==
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -4419,7 +4414,7 @@ neo-async@^2.6.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-node-fetch@^2.6.11:
+node-fetch@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.12.tgz#02eb8e22074018e3d5a83016649d04df0e348fba"
   integrity sha512-C/fGU2E8ToujUivIO0H+tpQ6HWo4eEmchoPIoXtxCrVghxdKq+QOHqEZW7tuP3KlV3bC8FRMO5nMCC7Zm1VP6g==
@@ -5014,10 +5009,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@36.1.10:
-  version "36.1.10"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.1.10.tgz#c24400d538b20d70972440fb407698a9cab10248"
-  integrity sha512-zlnvX8FNTAvtEBwF15kEtjWlhSmDRLHHi5SacKTT2KfUsFeiFMBxSixO7cafpaUn4keMBbz5cjN8w0ZrBem9zQ==
+renovate@36.5.2:
+  version "36.5.2"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-36.5.2.tgz#e23cf1534e63bfb75a77f3c85b8e725a18afcb64"
+  integrity sha512-ahUJxWtFbgSOTB5Z4bu1hf9PUz8hE/1vJ1hnAy8d3xIYcWhGzioM7rzdDPvQi2sQPgSD/HIvS6hqQrhtUp1Iew==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -5039,7 +5034,7 @@ renovate@36.1.10:
     "@opentelemetry/sdk-trace-node" "1.14.0"
     "@opentelemetry/semantic-conventions" "1.14.0"
     "@qnighy/marshal" "0.1.3"
-    "@renovatebot/osv-offline" "1.3.0"
+    "@renovatebot/osv-offline" "1.3.1"
     "@renovatebot/pep440" "2.1.19"
     "@renovatebot/ruby-semver" "3.0.4"
     "@sindresorhus/is" "4.6.0"
@@ -5061,7 +5056,6 @@ renovate@36.1.10:
     commander "11.0.0"
     conventional-commits-detector "1.0.3"
     deepmerge "4.3.1"
-    delay "5.0.0"
     dequal "2.0.3"
     detect-indent "6.1.0"
     editorconfig "2.0.0"
