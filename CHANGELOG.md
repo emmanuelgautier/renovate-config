@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.5](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.4...v1.5.5) (2023-08-13)
+
+
+### Miscellaneous
+
+* **deps:** update dependency renovate to v36.42.4 ([ce633a8](https://github.com/emmanuelgautier/renovate-config/commit/ce633a8b637e90ab536b78b6d27fdaa4eea3f630))
+* **deps:** update dependency renovate to v36.5.2 ([40d8ac0](https://github.com/emmanuelgautier/renovate-config/commit/40d8ac0fc526501b1eed2bda45dd80f4162cd91f))
+
 ## [1.5.4](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.3...v1.5.4) (2023-07-08)
 
 
