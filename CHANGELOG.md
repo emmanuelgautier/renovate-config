@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.6](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.5...v1.5.6) (2023-10-28)
+
+
+### Miscellaneous
+
+* **deps:** update actions/checkout action to v4 ([9afd844](https://github.com/emmanuelgautier/renovate-config/commit/9afd8447b204e604a78db999902ddcd2d762d2a4))
+* **deps:** update actions/setup-node action to v4 ([8f5c69b](https://github.com/emmanuelgautier/renovate-config/commit/8f5c69b65f8f713069549b11895d30a439880e0d))
+* **deps:** update dependency renovate to v36.109.4 ([5cf9d4e](https://github.com/emmanuelgautier/renovate-config/commit/5cf9d4e23ffe0e5332506d78a3832baa6d8eed49))
+
 ## [1.5.5](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.4...v1.5.5) (2023-08-13)
 
 
