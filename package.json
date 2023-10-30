@@ -1,6 +1,6 @@
 {
   "name": "@emmanuelgautier/renovate-config",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "Shareable config for Renovate",
   "scripts": {
     "test": "renovate-config-validator",
