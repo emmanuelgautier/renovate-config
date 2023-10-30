@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.7](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.6...v1.5.7) (2023-10-30)
+
+
+### Miscellaneous
+
+* move renovate default config ([d7501c6](https://github.com/emmanuelgautier/renovate-config/commit/d7501c66bb8dbdd7f9343d2b48d3a73ca3e12f4f))
+
 ## [1.5.6](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.5...v1.5.6) (2023-10-28)
 
 
