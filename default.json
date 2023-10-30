@@ -1,0 +1,41 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base",
+        "schedule:weekends",
+        "group:allNonMajor",
+        ":automergePr",
+        ":semanticCommits",
+        ":autodetectPinVersions",
+        ":combinePatchMinorReleases",
+        ":rebaseStalePrs",
+        ":prConcurrentLimit10",
+        ":prHourlyLimit1",
+        ":updateNotScheduled",
+        "github>whitesource/merge-confidence:beta"
+    ],
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "automerge": true
+        },
+        {
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "stabilityDays": 2,
+            "automerge": true
+        },
+        {
+            "matchDepTypes": [
+                "devDependencies"
+            ],
+            "prPriority": -1
+        }
+    ]
+}
