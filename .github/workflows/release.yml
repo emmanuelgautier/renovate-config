@@ -26,11 +26,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
-          cache: 'yarn'
 
       - name: Install dependencies 👨🏻‍💻
         if: ${{ steps.release.outputs.release_created }}
-        run: yarn install --frozen-lockfile --silent
+        run: npm ci
 
       - name: Publish package 📦
         if: ${{ steps.release.outputs.release_created }}
