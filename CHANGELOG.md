@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.7...v1.6.0) (2025-01-25)
+
+
+### Features
+
+* stop merging automatically and other changes ([6564471](https://github.com/emmanuelgautier/renovate-config/commit/65644711f42d58991c2b6628f23bb690f3d7d20a))
+* upgrade node and move to npm ([b979a8c](https://github.com/emmanuelgautier/renovate-config/commit/b979a8cefa2564b1af3b2ff1dc45bb13210ce4bf))
+* upgrade renovate ([8772028](https://github.com/emmanuelgautier/renovate-config/commit/877202810cd6962b7bb7619846e21acac8557e41))
+
 ## [1.5.7](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.6...v1.5.7) (2023-10-30)
 
 
