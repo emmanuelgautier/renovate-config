@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.1](https://github.com/emmanuelgautier/renovate-config/compare/v1.6.0...v1.6.1) (2025-04-05)
+
+
+### Bug Fixes
+
+* use renovate github extends syntax ([10e9f2e](https://github.com/emmanuelgautier/renovate-config/commit/10e9f2e80a4b138f99ca1f8d7e92340195a1279f))
+* use renovate github extends syntax ([e4a5b74](https://github.com/emmanuelgautier/renovate-config/commit/e4a5b743c4d3eb39936e37ccf8bc1b42c103095b))
+
 ## [1.6.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.7...v1.6.0) (2025-01-25)
 
 
