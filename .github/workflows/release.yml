@@ -19,7 +19,7 @@ jobs:
 
       - name: Checkout 🛎
         if: ${{ steps.release.outputs.release_created }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup node env 🏗
         if: ${{ steps.release.outputs.release_created }}
