@@ -3,8 +3,7 @@
   "version": "1.6.0",
   "description": "Shareable config for Renovate",
   "scripts": {
-    "test": "renovate-config-validator",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "test": "renovate-config-validator"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,6 @@
   },
   "homepage": "https://github.com/emmanuelgautier/renovate-config#readme",
   "devDependencies": {
-    "renovate": "41.172.2",
-    "standard-version": "9.5.0"
+    "renovate": "41.170.1"
   }
 }
