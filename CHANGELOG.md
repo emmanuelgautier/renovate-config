@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.6.0...v1.7.0) (2025-11-05)
+
+
+### Features
+
+* **deps:** update dependencies ([3e48e3a](https://github.com/emmanuelgautier/renovate-config/commit/3e48e3a699a3c3114952dab3df718d5fd91b8940))
+* upgrade node version ([734d8e0](https://github.com/emmanuelgautier/renovate-config/commit/734d8e0173eb3f279526b208211863ee19ecbcff))
+
+
+### Bug Fixes
+
+* **deps:** remove standard-version package ([be5370d](https://github.com/emmanuelgautier/renovate-config/commit/be5370d8cc93ba16bfaae46cdc8d8ae292a9e58f))
+* **deps:** update package-lock ([ee3e584](https://github.com/emmanuelgautier/renovate-config/commit/ee3e5841a3bb3ab24b562fe0ef76f2a81dd2e700))
+* extends from local renovate config ([ab1e978](https://github.com/emmanuelgautier/renovate-config/commit/ab1e978f862c9773a8a58a59970e4b2da280b1d2))
+* use renovate github extends syntax ([10e9f2e](https://github.com/emmanuelgautier/renovate-config/commit/10e9f2e80a4b138f99ca1f8d7e92340195a1279f))
+* use renovate github extends syntax ([e4a5b74](https://github.com/emmanuelgautier/renovate-config/commit/e4a5b743c4d3eb39936e37ccf8bc1b42c103095b))
+
 ## [1.6.0](https://github.com/emmanuelgautier/renovate-config/compare/v1.5.7...v1.6.0) (2025-01-25)
 
 
