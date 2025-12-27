@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/emmanuelgautier/renovate-config#readme",
   "devDependencies": {
-    "renovate": "41.170.1"
+    "renovate": "42.66.9"
   }
 }
